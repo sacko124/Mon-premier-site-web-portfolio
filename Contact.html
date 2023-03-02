@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200famille=Josefin+Sans:wght@200;300;400;500;600;700&=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div>
+        <ul class="nav-bar">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="propos.html">A propos</a></li>
+            <li><a href="projets.html">Mes projets</a></li>
+            <li><a href="Contact.html">Contact </a></li>
+        </ul>
+        </div>
+        <img src="nav-menu.png" alt="menu" class="menu">
+    </header>
+    
+    
+       
+        <div class="wrapper">
+            <div class="container">
+              <div class="contactus">
+                <h1>contactez moi</h1>
+                <div class="item name_email">
+                  <input type="text" placeholder="votre nom">
+                  <input type="text" placeholder="Email">
+                </div>
+                <div class="item">
+                  <input type="text" placeholder="OBJECT">
+                </div>
+                <div class="item">
+                  <textarea placeholder="Message"></textarea>
+                </div>
+                <div class="btn">
+                    <a href="#" class="envoi">Envoyé</a>
+                </div>
+              </div>
+            </div>
+          </div>	
+          
+        
+    <script>
+        const menu = document.querySelector(".menu")
+        const navbar = document.querySelector(".nav-bar")
+ 
+        menu.addEventListener('click',()=>{
+        navbar .classList.toggle('mobile-menu')
+        })
+</script>
+</body>
+</html>

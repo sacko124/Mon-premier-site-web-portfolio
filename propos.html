@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200famille=Josefin+Sans:wght@200;300;400;500;600;700&=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div >
+        <ul class="nav-bar">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="propos.html">A propos</a></li>
+            <li><a href="projets.html">Mes projets</a></li>
+            <li><a href="Contact.html">Contact </a></li>
+        </ul>
+        </div>
+        <img src="nav-menu.png" alt="menu" class="menu">
+
+    </header>
+    <div class="corps">
+        <h1>A propos de moi</h1><br>
+        <h2>Développeur web et d'application Mobile</h2><br>
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+         Quisquam soluta harum illo maiores distinctio ullam doloremque <br> 
+        quaerat, dolorum iure incidunt numquam ea similique ex dignissimos <br>
+         reprehenderit repellat quibusdam accusantium ratione?
+    A excepturi <br>
+     vitae minima modi eos, culpa magni quisquam est illo corporis <br>
+      quaerat unde quod, fugit totam at doloremque maiores voluptatem <br>
+       enim dicta mollitia atque ad. Odio mollitia quo maxime. <br>
+  
+    </div>
+
+    <script>
+        const menu = document.querySelector(".menu")
+        const navbar = document.querySelector(".nav-bar")
+ 
+        menu.addEventListener('click',()=>{
+        navbar .classList.toggle('mobile-menu')
+        })
+</script>
+</body>
+</html>
